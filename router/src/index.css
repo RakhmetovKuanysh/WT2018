@@ -1,0 +1,147 @@
+.center {
+    margin: 0 auto;
+}
+
+.contact-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-background {
+    background-color: grey;
+}
+
+.contact-body {
+    width: 100%;
+    background-color: whitesmoke;
+    min-height: 250px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    padding: 20px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.titleName {
+    font-size: 22px;
+    width: 120px;
+}
+
+.contact input {
+    background-color: transparent;
+    border: none;
+}
+
+.contact input:focus { 
+    outline: none;
+}
+
+.todo-form {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+input:disabled {
+    border: none;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-buttons {
+    top: 104px;
+    position: absolute;
+}
+
+.contact {
+    position: relative;
+    padding: 10px 0 10px 0;
+}
+
+.todo-show {
+    padding: 0 10px 0 10px;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+.todo-input {
+    border: none;
+}
+
+.inputTodo {
+    width: 50% !important;
+}
+
+.form-group {
+    padding-top: 20px;
+}
+
+.todo-btn {
+    width: 50%;
+}
+
+.insertForm {
+    padding-bottom: 30px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    padding: 0 5px 0 5px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.header-todo {
+    text-align: center;
+}
+
+.marginAuto {
+    
+}
+
+.outline {
+    text-decoration: underline;
+}
